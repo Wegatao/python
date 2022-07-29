@@ -1,0 +1,21 @@
+n1 = int(input('digite um numero:'))
+n2 = int(input('digite outro numero:'))
+s = n2 + n2
+print(f'a soma entre {n1} + {n2} equivale há = {s}')
+
+#--------------------------------------------------------------------
+n = input('digite o primeiro nome que vem a sua mente:')
+print('...')
+print('só tem numero? ',n.isnumeric())
+print('...')
+print('só tem letra? ',n.isalpha())
+print('...')
+print('tem numero ou letras? ',n.isalnum())
+print('...')
+print('só tem espaço? ',n.isspace())
+print('...')
+print('só tem letra maiscula? ', n.isupper())
+print('...')
+print('está em letra minuscula? ', n.islower())
+print('...')
+print('está capitalizada? ', n.istitle())
